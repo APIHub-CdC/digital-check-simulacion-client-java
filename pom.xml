@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.apihub</groupId>
-    <artifactId>apihub-java-client</artifactId>
+    <groupId>mx.com.cdc</groupId>
+    <artifactId>digitalcheck-simulacion-java-client</artifactId>
     <packaging>jar</packaging>
-    <name>digitalcheck-client-java-client</name>
+    <name>digitalcheck-simulacion-java-client</name>
     <version>1.0.0</version>
     <distributionManagement>
 		<repository>
 			<id>github</id>
 			<name>GitHub APIHub-CdC Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/APIHub-CdC/digitalcheck-client-java</url>
+			<url>https://maven.pkg.github.com/APIHub-CdC/digital-check-simulacion-client-java</url>
 		</repository>
 	</distributionManagement>
 
@@ -19,12 +19,12 @@
 			<name>API Hub</name>
 			<email>api@circulodecredito.com.mx</email>
 			<organization>com.cdc.apihub</organization>
-			<organizationUrl>https://github.com/APIHub-CdC/digitalcheck-client-java</organizationUrl>
+			<organizationUrl>https://github.com/APIHub-CdC/digital-check-simulacion-client-java</organizationUrl>
 		</developer>
 	</developers>
 	<scm>
-		<url>https://github.com/APIHub-CdC/digitalcheck-client-java</url>
-		<tag>digitalcheck-client-java</tag>
+		<url>https://github.com/APIHub-CdC/digital-check-simulacion-client-java</url>
+		<tag>digitalcheck-simulacion-client-java</tag>
 	</scm>
 
 	<licenses>

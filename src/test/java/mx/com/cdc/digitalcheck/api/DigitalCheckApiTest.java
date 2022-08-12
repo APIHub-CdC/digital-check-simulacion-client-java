@@ -8,20 +8,19 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import mx.com.cdc.digitalcheck.api.DefaultApi;
 import mx.com.cdc.digitalcheck.client.ApiClient;
 import mx.com.cdc.digitalcheck.client.ApiException;
 import mx.com.cdc.digitalcheck.model.Otorgante;
 import mx.com.cdc.digitalcheck.model.Response;
 import okhttp3.OkHttpClient;
 
-public class DigitalCheckApi {
-    private Logger logger = LoggerFactory.getLogger(DigitalCheckApi.class.getName());
+public class DigitalCheckApiTest {
+    private Logger logger = LoggerFactory.getLogger(DigitalCheckApiTest.class.getName());
     
     private final DefaultApi api = new DefaultApi();
     private ApiClient apiClient;
-    private String xApiKey = "WMroAp3ByBDWFGtk5AD24wagIiR4RFvI";
-    private String url = "https://circulodecredito-dev.apigee.net/sandbox/v1/fullfraud";
+    private String xApiKey = "your_x_api_key";
+    private String url = "the_url";
     
     @Before()
     public void Setup() {
@@ -38,11 +37,11 @@ public class DigitalCheckApi {
     	
     	Otorgante otorgante = new Otorgante();
     	
-    	otorgante.setFolioOtorgante("94762");
-    	otorgante.setFolioConsulta("X");
-    	otorgante.setEmail("nombre.apellido@gmail.com");
-    	otorgante.setIp("104.28.11.164");
-    	otorgante.setPhone("525510176606");
+    	otorgante.setFolioOtorgante("386636546");
+    	otorgante.setFolioConsulta("386636538");
+    	otorgante.setEmail("ejemplo.ejemplo@gmail.com");
+    	otorgante.setIp("1103.4.96.66");
+    	otorgante.setPhone("525512345678");
     	
     	try {
     		Response response = api.fullfraud(xApiKey, otorgante);
