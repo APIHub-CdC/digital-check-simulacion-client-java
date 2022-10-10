@@ -3,7 +3,7 @@
 
 API Digital Checks.
 <br/><br/>
-A traves de datos como correo electronico, numero telefonico y direccion IP, proporciona un score de riesgo de fraude de originacion y a la vez obtiene informacion relevante para mejor conocimiento del perfil de riesgo del usuario.<br/><img src='https://github.com/APIHub-CdC/imagenes-cdc/blob/master/circulo_de_credito-apihub.png' height='37' width='160'/></p><br/>
+A través de datos como correo electrónico, número telefónico y dirección IP, proporciona un grade de riesgo de fraude de originación y a la vez obtiene información relevante para mejor conocimiento del perfil de riesgo del usuario.<br/><img src='https://github.com/APIHub-CdC/imagenes-cdc/blob/master/circulo_de_credito-apihub.png' height='37' width='160'/></p><br/>
 
 ## Requisitos
 
